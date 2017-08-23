@@ -13,7 +13,7 @@
       <br>
       <p class="date"><%= @post.created_at.strftime("%A, %b %d") %></p>
       <hr>
-      <p><%= @post.content %></p>
+      <p><%= markdown @post.content %></p>
       <br>
       <br>
       <%= link_to "Edit", edit_post_path(@post) %>&emsp;

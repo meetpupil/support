@@ -15,6 +15,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'sass-rails', '~> 5.0'
+gem 'redcarpet', '~> 3.4'
+gem 'pygments.rb', '~> 1.1', '>= 1.1.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
