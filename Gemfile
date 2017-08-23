@@ -17,6 +17,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'redcarpet', '~> 3.4'
 gem 'pygments.rb', '~> 1.1', '>= 1.1.2'
+gem 'friendly_id', '~> 5.2', '>= 5.2.1'
 
 group :development, :test do
   gem 'byebug', platform: :mri
